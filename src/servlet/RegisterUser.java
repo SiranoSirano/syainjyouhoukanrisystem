@@ -21,7 +21,7 @@ public class RegisterUser extends HttpServlet {
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
-	//getの時にregisterFormにリクエストをドワードしてユーザー登録を行う画面の出力
+	//getの時にregisterFormにリクエストをフォワードしてユーザー登録を行う画面の出力
 	//またget時でもnullとdoneで２つのパターンがあり、条件分岐する
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
